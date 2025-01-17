@@ -54,16 +54,15 @@ cd ROADCEPTION
 
 ## Usage
 1. Frontend Interface
-Navigate to the frontend folder.
-Open index.html in a web browser.
-Upload your video file through the interface.
-View processed results directly.
+-Navigate to the frontend folder.
+-Open index.html in a web browser.
+-Upload your video file through the interface.
+-View processed results directly.
 
 ## Input and Output
-Input: Place your input video (e.g., vehicle.mp4) in the videos folder.
-Output: Processed videos will be saved as:
-lane_detection_output.mp4 (Lane detection results)
-object_detection_output.mp4 (Object detection results)
+-Input: Place your input video (e.g., vehicle.mp4) in the videos folder.
+-Output: Processed videos will be saved as:
+lane_detection_output.mp4 (Lane detection results) and object_detection_output.mp4 (Object detection results)
 
 # Dataset
 ## Lane Detection
@@ -74,25 +73,25 @@ Preprocessing includes resizing to 64x64 and applying augmentations for robustne
 The YOLOv5 model is pre-trained on the COCO dataset, enabling it to detect common objects like cars, pedestrians, etc.
 
 # Results
-Lane Detection: The CNN achieves high accuracy in detecting lanes under clear conditions.
-Object Detection: YOLOv5 performs real-time detection of vehicles, pedestrians, and other objects.
+-Lane Detection: The CNN achieves high accuracy in detecting lanes under clear conditions.
+-Object Detection: YOLOv5 performs real-time detection of vehicles, pedestrians, and other objects.
 
 # Limitations
 ## Lane Detection:
-Performance may degrade under poor lighting or occluded lanes.
-Limited to static lane markings.
+-Performance may degrade under poor lighting or occluded lanes.
+-Limited to static lane markings.
 
 ## Object Detection:
-May struggle with overlapping objects in crowded scenes.
+-May struggle with overlapping objects in crowded scenes.
 
 # Future Enhancements
-Improve the robustness of lane detection under varying weather and lighting conditions.
-Integrate lane curvature estimation for dynamic tracking.
-Extend object detection to multi-class tracking.
-Add a dashboard in the frontend for real-time visualization and statistics.
+-Improve the robustness of lane detection under varying weather and lighting conditions.
+-Integrate lane curvature estimation for dynamic tracking.
+-Extend object detection to multi-class tracking.
+-Add a dashboard in the frontend for real-time visualization and statistics.
 
 # Contributors
-Amogha Acharya - Mangalore Institute of Technology & Engineering
-Anubhav Gour - Mangalore Institute of Technology & Engineering
-Deviprasad N Shetty - Mangalore Institute of Technology & Engineering
-N Shreyas Nayak - Mangalore Institute of Technology & Engineering
+-Amogha Acharya - Mangalore Institute of Technology & Engineering
+-Anubhav Gour - Mangalore Institute of Technology & Engineering
+-Deviprasad N Shetty - Mangalore Institute of Technology & Engineering
+-N Shreyas Nayak - Mangalore Institute of Technology & Engineering
